@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ILinkTestApp</string>
+    <string name="title_home">Домашняя страница</string>
+    <string name="title_dashboard">Сохраненные картинки</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="text_duck">Показать утку</string>
+    <string name="text_dog">Показать собачку</string>
+    <string name="text_fox">Показать лисичку</string>
+    <string name="text_cat">Показать котика</string>
+    <string name="dislike">Не нравится</string>
+    <string name="image_saved">Картинка сохранена !</string>
+</resources>

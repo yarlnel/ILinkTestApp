@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/animalRv">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/animalImageView"
+            android:layout_centerInParent="true"
+            android:maxHeight="400dp"
+            android:maxWidth="400dp"
+            />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/imageProgressBar"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/animalRv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30sp"
+            android:textStyle="italic"
+            android:id="@+id/btnDuck"
+            android:text="@string/text_duck"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30sp"
+            android:textStyle="italic"
+            android:id="@+id/btnCat"
+            android:text="@string/text_cat"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30sp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:id="@+id/btnFox"
+            android:text="@string/text_fox"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30sp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:id="@+id/btnDog"
+            android:text="@string/text_dog"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
